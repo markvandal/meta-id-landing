@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "site": "meta-id-landing",
+    "public": ".",
+    "ignore": [
+      ".git/**",
+      "firebase.json"
+    ],
+    "rewrites": [
+      {
+        "source": "/Meta-ID-EN.html",
+        "destination": "/localized-files/en/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
